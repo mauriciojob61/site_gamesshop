@@ -1,0 +1,159 @@
+*{  /*sempre usar esse reset em toda pagina a ser criada no css*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+h1,
+section h2,
+section h3,
+form button{
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+
+
+body, input, textarea{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    padding: 16px 0;
+    background-color: #182c61;
+    color: #ecf0f1;
+    font-size: 15px;
+}
+
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    
+}
+
+header nav li a{
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container{ /*colocando os links ao lado do titulo*/
+    display: flex;
+    align-items: center; /*centralizar na vertical*/
+    justify-content: space-between; /*jogando os links para extrema direita*/
+}
+
+img {
+    width: 500px;
+    height: 350px;
+    object-fit: fill;
+}
+
+.brands-list img{
+    height: 70px;
+    width: 90px;
+}
+
+.brands-list li{
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container{ /*colocando os links ao lado do titulo*/
+    display: flex;
+    align-items: center; /*centralizar na vertical*/
+    justify-content: space-between; /*jogando os links para extrema direita*/
+}
+
+section .container{
+    align-items: flex-start; /*alinhando no topo*/
+}
+
+section {
+    padding: 24px 0;
+    color: #182c61;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+.store-front{
+    margin-right: 32px;
+}
+
+.social-links img{
+    height: 30px;
+    width: 40px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{ /*desabilitando o puxador que aumenta o espaço que escreve o texto*/
+    resize: none;
+    height: 180px;
+}
+
+section h3{
+    margin-bottom: 16px;
+}
+
+form button{
+    background-color: #182c61;
+    color: #ecf0f1;
+    cursor: pointer; /* maozinha no lugar da seta*/
+}
+
+form button:hover {
+    background-color: #2b4ca8;
+}
+
+input:focus, textarea:focus { /*mudando a cor da borda do textarea*/
+    outline-color: #182c61;
+}
+
+footer{
+    background-color: #182c61;
+    color: #ecf0f1;
+    padding: 16px 0;
+    text-align: center;
+}
+
+
+
